@@ -1,0 +1,9 @@
+{
+  "name": "rabbitmq_ex",
+  "version": "1.0.0",
+  "description": "test for rabbitMQ nodejs client",
+  "author": "maimo",
+  "dependencies": {
+    "amqplib": "^0.3.2"
+  }
+}
