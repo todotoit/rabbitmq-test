@@ -70,6 +70,6 @@ Vagrant.configure(2) do |config|
     echo "deb http://www.rabbitmq.com/debian/ testing main" >> /etc/apt/sources.list.d/rabbitmq.list
     sudo apt-get update
     sudo apt-get install -y rabbitmq-server
-    echo "[{rabbit, [{loopback_users, []}]}]." > /etc/rabbitmq/rabbit.config
+    echo "[{rabbit, [{loopback_users, []}]}]." > /etc/rabbitmq/rabbitmq.config
   SHELL
 end
