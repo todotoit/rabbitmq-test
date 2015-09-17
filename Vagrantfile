@@ -71,5 +71,6 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get install -y rabbitmq-server
     echo "[{rabbit, [{loopback_users, []}]}]." > /etc/rabbitmq/rabbitmq.config
+    sudo rabbitmq-plugins enable rabbitmq_management
   SHELL
 end
